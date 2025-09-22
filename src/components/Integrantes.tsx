@@ -5,19 +5,19 @@ const integrantes = [
     nome: "Daniel Nicolas Leoterio",
     rm: "562186",
     turma: "1TDSPV",
-    foto: "https://dummyimage.com/150x150/319795/ffffff&text=Daniel"
+    foto: "/src/image/Daniel.jpg"
   },
   {
     nome: "Ana Carolina Pereira Fontes",
-    rm: "67890",
+    rm: "562145",
     turma: "1TDSPV",
-    foto: "https://dummyimage.com/150x150/319795/ffffff&text=Carolina"
+    foto: "/src/image/Carol.jpg"
   },
   {
     nome: "Matheus Moya de Oliveira",
-    rm: "54321",
+    rm: "562822",
     turma: "1TDSPV",
-    foto: "https://dummyimage.com/150x150/319795/ffffff&text=Matheus"
+    foto: "/src/image/Matheus.jpg"
   }
 ];
 

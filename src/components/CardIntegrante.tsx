@@ -7,7 +7,7 @@ export default function CardIntegrantes({nome, rm, turma, foto}:cardIntegrantes)
         <img
           src={foto}
           alt="Integrante"
-          className="w-32 h-32 mx-auto rounded-full mb-4"
+          className="w-32 h-32 rounded-full object-cover object-[0_30%] mx-auto"
         />
         <h4 className="text-xl font-semibold">{nome}</h4>
         <p className="text-gray-400">RM: {rm}</p>

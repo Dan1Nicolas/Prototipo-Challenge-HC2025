@@ -12,12 +12,17 @@ export default function Demonstracao() {
           </div>
         </div>
         <div className="flex justify-center">
-          <img
-            src="https://dummyimage.com/250x500/2d3748/e2e8f0&text=WhatsApp+Mockup"
-            alt="Mockup Celular"
-            className="rounded-xl shadow-lg"
-          />
+          <div className="relative w-[250px] h-[500px] rounded-3xl overflow-hidden shadow-lg bg-gray-900">
+            <video
+              src="/src/video/whatsapp-demo.mp4"
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="w-full h-full object-cover"
+            />
         </div>
+      </div>
       </div>
     </section>
   );

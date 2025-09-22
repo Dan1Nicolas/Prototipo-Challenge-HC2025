@@ -13,7 +13,8 @@ export default function Hero() {
       </p>
       <div className="flex flex-col md:flex-row gap-6 items-center">
         <a
-          href="http://localhost:5000/enviar-mensagem" // <-- pluga o backend aqui
+          href="https://www.hc.fm.usp.br/hc/portal"
+          target="_blank"
           className="bg-teal-500 hover:bg-teal-600 text-white font-semibold px-6 py-3 
               rounded-lg shadow-md transition"
         >
