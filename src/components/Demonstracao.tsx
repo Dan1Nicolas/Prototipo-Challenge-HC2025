@@ -12,7 +12,7 @@ export default function Demonstracao() {
           </div>
         </div>
         <div className="flex justify-center">
-          <div className="relative w-[250px] h-[500px] rounded-3xl overflow-hidden shadow-lg bg-gray-900">
+          <div className="relative w-[300px] h-[600px] rounded-3xl overflow-hidden shadow-lg bg-gray-900">
             <video
               src="/src/video/whatsapp-demo.mp4"
               autoPlay
